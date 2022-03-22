@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "client/1.0.0": {
+        "dependencies": {
+          "SimpleTCP": "1.0.24"
+        },
+        "runtime": {
+          "client.dll": {}
+        }
+      },
+      "SimpleTCP/1.0.24": {
+        "runtime": {
+          "lib/net45/SimpleTCP.dll": {
+            "assemblyVersion": "1.0.24.0",
+            "fileVersion": "1.0.24.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleTCP/1.0.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mQEKbXruksWRmKeUuID7S+Ltg092EiWXwnomnVYohkY+/rTRiIp4PUTE/bdBEj6oh1gIt0lp4l0GBlwtOhqU5w==",
+      "path": "simpletcp/1.0.24",
+      "hashPath": "simpletcp.1.0.24.nupkg.sha512"
+    }
+  }
+}
